@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using MojiZadaci.Api.Data;
 using MojiZadaci.Api.Endpoints;
-
+//test
 var builder = WebApplication.CreateBuilder(args);
 
 // Baza: SQLite fajl (putanja u appsettings.json -> ConnectionStrings:Default)
