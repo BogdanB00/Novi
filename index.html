@@ -8,5 +8,18 @@
 <body>
     <h1>Hello, World!</h1>
     <p>Menjamo kod u BE_server grani</p>
+
+    <!-- Testni kod -->
+    <p>Ovo je testni paragraf sa grane <strong>test-branch</strong>.</p>
+    <button id="testDugme">Klikni me</button>
+    <p id="poruka"></p>
+
+    <script>
+        let brojac = 0;
+        document.getElementById('testDugme').addEventListener('click', function () {
+            brojac++;
+            document.getElementById('poruka').textContent = 'Kliknuto puta: ' + brojac;
+        });
+    </script>
 </body>
 </html>
